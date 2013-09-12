@@ -1,0 +1,7 @@
+<settings>
+  <category label="General">
+    <setting id="has_updated_librtmp" type="bool" label="El archivo libRTMP está actualizado" default="false" />
+    <setting id="show24h" type="bool" label="Ver horas en formato 24h" default="false" />
+    <setting id="habilitarmodoadultos" type="bool" label="Habilitar canales para adultos" default="false" />
+  </category>
+</settings>

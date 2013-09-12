@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.xbmc.rtmpGUI</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/bin/bash</string>
+      <string>-c</string>
+      <string><![CDATA[cd ~/Library/Application*Support/XBMC/addons/plugin.video.rtmpGUIplus; python update.py]]></string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    	<dict>
+    		<key>SuccessfulExit</key>
+    		<false/>
+    	</dict>
+    <key>StartCalendarInterval</key>
+    <array>
+      <dict>
+        <key>Hour</key>
+        <integer>2</integer>
+      </dict>
+    </array>
+  </dict>
+</plist>
